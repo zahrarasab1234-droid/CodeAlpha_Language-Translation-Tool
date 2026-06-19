@@ -1,0 +1,30 @@
+body { 
+    font-family: sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    padding-top: 50px; 
+    /* Light blue background */
+    background-color: #e3f2fd; 
+}
+
+.container { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 400px; 
+}
+
+/* Updated button color to match the blue theme */
+button { 
+    cursor: pointer; 
+    background-color: #1976d2; /* Darker blue */
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+}
+
+button:hover {
+    background-color: #1565c0;
+}
